@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kellon's Calculator</title>
     <link rel="stylesheet" href="/style.css">
-    <scrip src="/script.js"defer></scrip>
+    <script src="./script.js"defer></script>
 </head>
 <body>
     <div class="calculator">
@@ -14,25 +14,25 @@
 
         </div>
         <div class="button-grid">
-            <button class="btn" onclick="" id="clear-btn">C</button>
-            <button class="btn" onclick="" id="negative-btn">+/-</button>
-            <button class="btn" onclick="" id="percentage-btn">%</button>
-            <button class="btn" onclick="" id="divide-btn">/</button>
+            <button class="btn" onclick="currentNumber(this.value)" id="clear-btn">C</button>
+            <button class="btn" onclick="currentNumber(this.value)" id="negative-btn">+/-</button>
+            <button class="btn" onclick="currentNumber(this.value)" id="percentage-btn">%</button>
+            <button class="btn" onclick="currentNumber(this.value)" id="divide-btn">/</button>
 
             
-            <button class="btn" onclick="" data-number>7</button>
-            <button class="btn" onclick="" data-number>8</button>
-            <button class="btn" onclick="" data-number>9</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="7">7</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="8">8</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="9">9</button>
             <button class="btn" onclick="" id="multiply-btn">x</button>
 
-            <button class="btn" onclick="" data-number>4</button>
-            <button class="btn" onclick="" data-number>5</button>
-            <button class="btn" onclick="" data-number>6</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="4"r>4</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="5">5</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="6">6</button>
             <button class="btn" onclick="" id="minus-btn">-</button>
 
-            <button class="btn" onclick="" data-number>1</button>
-            <button class="btn" onclick="" data-number>2</button>
-            <button class="btn" onclick="" data-number>3</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="1">1</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="2">2</button>
+            <button class="btn" onclick="currentNumber(this.value)" value="3">3</button>
             <button class="btn" onclick="" id="add-button">+</button>
 
             <button class="btn" onclick="" data-number>0</button>

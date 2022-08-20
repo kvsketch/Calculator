@@ -17,6 +17,9 @@ body {
 .display {
     height: 300px;
     width: 550px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
 }
 
 .button-grid {
