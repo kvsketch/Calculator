@@ -15,11 +15,22 @@ body {
 }
 
 .display {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 300px;
-    width: 550px;
+    width: 520px;
     background-color: black;
     color: white;
-    font-size: 30px;
+    font-size: 80px;
+    flex-wrap: wrap;
+}
+
+.display div {
+    flex-wrap: wrap;
+    margin-left: 300px
 }
 
 .button-grid {
