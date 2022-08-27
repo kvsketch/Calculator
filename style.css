@@ -61,3 +61,7 @@ body {
     font-size: 18px;
     transition: 0.2s;
 }
+
+[data-operation] {
+    background-color: rgb(213, 156, 82);
+}
